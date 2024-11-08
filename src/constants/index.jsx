@@ -34,7 +34,7 @@ export const HERO = {
   name: "SHREYANS SHAH",
   greet: "Hello there! ",
   description:
-    "I’m an aspiring data scientist focused on transforming data into actionable insights. With a growing understanding of machine learning, statistical analysis, and data visualization, I aim to contribute to data-driven decision-making and improve business outcomes.",
+    "I'm an aspiring data scientist focused on transforming data into actionable insights. With a growing understanding of machine learning, statistical analysis, and data visualization, I aim to contribute to data-driven decision-making and improve business outcomes.",
 };
 
 export const PROJECTS = [
@@ -69,13 +69,14 @@ export const PROJECTS = [
 export const BIO = [
   <p key={0}>
     As a data scientist with a strong interest in finance, business, and tech, I leverage advanced analytics to extract actionable insights from complex data. Through data visualization, I aim to contribute to optimizing strategies, improving financial performance, and drive technological innovation.
-  </p>,
-  <p key={1}>
-    Eager to push boundaries, I'm expanding my focus towards quantitative engineering, captivated by its potential for innovation and lucrative opportunities in the data landscape.
-  </p>,
-  <p key={2}>
-    When I'm not immersed in data, you can find me cruising in my car, traveling to new destinations, or capturing nature's beauty through my lens. Catch a glimpse of my nature escapades <a href="https://in.pinterest.com/mister__dude/_created/" target="_blank" rel="noopener noreferrer" style={{ color: 'blue', textDecoration: 'underline' }}>here</a>. This diverse mix of interests fuels my creativity and enriches my approach to data science.
-  </p>
+</p>,
+<p key={1}>
+    Eager to push boundaries, I&apos;m expanding my focus towards quantitative engineering, captivated by its potential for innovation and lucrative opportunities in the data landscape.
+</p>,
+<p key={2}>
+    When I&apos;m not immersed in data, you can find me cruising in my car, traveling to new destinations, or capturing nature&apos;s beauty through my lens. Catch a glimpse of my nature escapades <a href="https://in.pinterest.com/mister__dude/_created/" target="_blank" rel="noopener noreferrer" style={{ color: 'blue', textDecoration: 'underline' }}>here</a>. This diverse mix of interests fuels my creativity and enriches my approach to data science.
+</p>
+
 ];
 
 

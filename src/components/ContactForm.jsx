@@ -68,7 +68,7 @@ const ContactForm = () => {
     return (
         <div className="p-4 lg:w-3/4" id="contact">
             <Toaster />
-            <h2 className="my-8 text-center text-4xl font-semibold tracking-tighter">Let's Connect</h2>
+            <h2 className="my-8 text-center text-4xl font-semibold tracking-tighter">Let&apos;s Connect</h2>
             <motion.form
             initial={{ opacity: 0}}
             whileInView={{ opacity: 1}}
