@@ -3,14 +3,17 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Ensure this matches the branch you want to deploy from
+      - main  # Change to your main branch if it has a different name
+
+permissions:
+  contents: write  # This ensures the workflow has the right to write to the repo
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Install dependencies
         run: npm install
