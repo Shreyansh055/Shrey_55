@@ -23,7 +23,7 @@ const Projects = () => {
         Projects
       </motion.h2>
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
         {PROJECTS.map((project) => (
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -40,7 +40,7 @@ const Projects = () => {
               className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
 
-            {/* Show project details (both mobile and desktop) */}
+            {/* Show project details for desktop and mobile */}
             {(tappedProject === project || window.innerWidth > 768) && (
               <motion.div
                 initial={{ opacity: 0 }}
