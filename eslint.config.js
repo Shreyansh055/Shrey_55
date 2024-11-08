@@ -5,7 +5,9 @@ import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
 
 export default [
-  { ignores: ['dist'] },
+  {
+    ignores: ['dist'],  // Ignore the 'dist' directory in linting
+  },
   {
     files: ['**/*.{js,jsx}'],
     languageOptions: {
@@ -17,7 +19,9 @@ export default [
         sourceType: 'module',
       },
     },
-    settings: { react: { version: '18' } }, // Use '18' instead of '18.3'
+    settings: {
+      react: { version: '18' }, // Specify the React version
+    },
     plugins: {
       react,
       'react-hooks': reactHooks,
@@ -28,7 +32,7 @@ export default [
       ...react.configs.recommended.rules,
       ...react.configs['jsx-runtime'].rules,
       ...reactHooks.configs.recommended.rules,
-      'react/jsx-no-target-blank': 'off',
+      'react/jsx-no-target-blank': 'off', // Disables target=_blank warnings
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
