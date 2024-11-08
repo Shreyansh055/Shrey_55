@@ -45,6 +45,7 @@ export const PROJECTS = [
       "Utilizes Python, Pandas, and machine learning to analyze historical market data, generate trading signals, and automate trades based on technical indicators like SMA for informed decision-making",
     image: projectImage1,
     githubLink: "https://github.com/Shreyansh055/Trading_Algorithm_055.git",
+    tooltip: "Trading Algorithm with Python",
   },
   {
     id: 2,
@@ -53,8 +54,8 @@ export const PROJECTS = [
       "Uses machine learning algorithms in Python to optimize ride-sharing prices by analyzing real-time demand and supply. Leveraging historical Uber data, it adjusts prices dynamically to maximize revenue while enhancing customer satisfaction.",
     image: projectImage2,
     githubLink: "https://github.com/Shreyansh055/Dynamic_Pricing_Strategy_055.git",
+    tooltip: "Dynamic Pricing with ML",
   },
-  
   {
     id: 6,
     name: "Time Series Forecasting",
@@ -62,8 +63,10 @@ export const PROJECTS = [
       "Channels advanced methods like ARIMA, LSTM, and Prophet with Python and Pandas to predict future trends from historical data, ensuring scalable and precise forecasting for business and finance.",
     image: projectImage6,
     githubLink: "https://github.com/Shreyansh055/Time-Series-Forecasting_055.git",
+    tooltip: "Forecasting with Time Series Analysis",
   },
 ];
+
 
 
 export const BIO = [

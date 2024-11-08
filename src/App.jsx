@@ -1,4 +1,4 @@
-import './styles.css';  // Make sure the path is correct
+import './styles.css'
 import Bio from "./components/Bio"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
