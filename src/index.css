@@ -1,0 +1,67 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif; /* Ensure that Poppins is applied */
+  background: #000;
+  color: #fff;
+}
+
+.bg-img {
+  background-image: url("../src/assets/bg-img5.png");
+}
+
+.bio-text {
+  font-size: 1rem;  /* Default font size */
+  margin-bottom: 1.5rem;  /* Spacing between paragraphs */
+  line-height: 1.6;  /* Better readability */
+  padding: 0 1rem;  /* Horizontal padding */
+  word-wrap: break-word;  /* Ensure long words break and don’t overflow */
+  white-space: normal;  /* Allow normal text wrapping */
+  overflow: visible;  /* Prevent truncation */
+}
+
+.bio-text {
+  font-size: 1rem; /* Default font size */
+  margin-bottom: 1.5rem; /* Spacing between paragraphs */
+  line-height: 1.6; /* Better readability */
+  padding: 0 1rem; /* Horizontal padding */
+  word-wrap: break-word; /* Ensure long words break and don’t overflow */
+  white-space: normal; /* Allow normal text wrapping */
+  overflow: visible; /* Ensure no content is hidden */
+  display: block; /* Ensures block-level rendering */
+}
+
+.bio-link {
+  color: blue;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .bio-text {
+    font-size: 0.875rem; /* Adjust font size for smaller screens */
+    margin-bottom: 1rem; /* Adjust margin for smaller screens */
+    padding: 0 0.5rem; /* Reduce horizontal padding on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .bio-text {
+    font-size: 0.8rem; /* Further reduce font size for very small screens */
+    margin-bottom: 0.8rem; /* Adjust margin for very small screens */
+    padding: 0 0.25rem; /* Further reduce padding */
+  }
+}
