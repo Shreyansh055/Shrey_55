@@ -31,7 +31,7 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO = {
-  name: "SHREYANS SHAH",
+  name: "SHREYANSH SHAH",
   greet: "Hello there! ",
   description:
     "I'm an aspiring data scientist focused on transforming data into actionable insights. With a growing understanding of machine learning, statistical analysis, and data visualization, I aim to contribute to data-driven decision-making and improve business outcomes.",
